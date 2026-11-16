@@ -1,0 +1,10 @@
+/* Shared base styles. Most styling is written inline on each element. */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#FFFFFF}
+img{max-width:100%;height:auto}
+a{color:#22303F}
+a:hover{color:#5B7088}
+.on-dark a{color:#D3DAE4;text-decoration:none}
+.on-dark a:hover{color:#FFFFFF;text-decoration:underline}
+:focus-visible{outline:2px solid #5B7088;outline-offset:2px}
